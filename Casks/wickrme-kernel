@@ -1,8 +1,9 @@
-cask "wickrmekernel" do
-  version "5.75.16"
-  sha256 "d0a6eaeeaa39078f6fa437b1dcbb810a84f3c68bd5b9f6fcc105ac7c64e223e2"
+cask 'wickr0' do
+  version :latest
+  sha256 :no_check
 
-  url "https://s3.amazonaws.com/static.wickr.com/downloads/mac/me/WickrMe-#{version}.dmg",
+
+  url "https://s3.amazonaws.com/static.wickr.com/downloads/mac/me/WickrMe-5.75.16.dmg",
       verified: "s3.amazonaws.com/static.wickr.com/"
   appcast "https://me-download.wickr.com/api/multiVerify/me/undefined/"
   name "Wickr Me"
@@ -11,4 +12,3 @@ cask "wickrmekernel" do
 
   app "WickrMe.app"
 end
-
