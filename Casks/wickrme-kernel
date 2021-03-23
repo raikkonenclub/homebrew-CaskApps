@@ -1,4 +1,4 @@
-cask "wickrme-kernel" do
+cask "wickrmekernel" do
   version "5.75.16"
   sha256 "d0a6eaeeaa39078f6fa437b1dcbb810a84f3c68bd5b9f6fcc105ac7c64e223e2"
 
