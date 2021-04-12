@@ -3,7 +3,7 @@ cask 'wickr0' do
   sha256 :no_check
 
 
-  url "https://s3.amazonaws.com/static.wickr.com/downloads/mac/me/WickrMe-5.75.16.dmg",
+  url "https://s3.amazonaws.com/static.wickr.com/downloads/mac/me/WickrMe-5.76.13.dmg",
       verified: "s3.amazonaws.com/static.wickr.com/"
   appcast "https://me-download.wickr.com/api/multiVerify/me/undefined/"
   name "Wickr Me"
